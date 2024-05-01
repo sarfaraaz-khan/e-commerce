@@ -1,0 +1,184 @@
+.userCart {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cartContainer {
+  display: flex;
+
+  margin: 30px 0px;
+  max-width: 80%;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration: none;
+}
+.cart {
+  border: 1.1px solid gray;
+  background-color: #ffff;
+  padding: 10px;
+}
+
+.userCartTable {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  max-width: 100%;
+}
+
+td,
+th {
+  /* border: 1px solid #dddddd; */
+  text-align: left;
+  padding: 8px;
+  font-family: "poppins";
+}
+th {
+  border-bottom: 1px solid gray;
+}
+#proTd {
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+#proTd > svg {
+  color: red;
+  font-size: 2.1vw;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#proTd > img {
+  width: 100px;
+  height: 100px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+#quantityItem {
+  text-align: center;
+}
+
+#returnBtn {
+  margin-top: 30px;
+}
+#returnBtn > a > button,
+#proceedToPayment {
+  background-color: green;
+  color: #ffff;
+  font-family: "Poppins";
+  font-size: 1.2vw;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  padding: 4px 8px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  margin-left: auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+#returnBtn > button > svg {
+  margin-right: 5px;
+}
+
+.bill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+}
+.cardTotals {
+  background-color: #ffff;
+  border: 1px solid gray;
+
+  padding: 10px;
+  font-family: "Poppins";
+  min-width: 350px;
+}
+
+#subTotal {
+  display: flex;
+
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1.2vw;
+  letter-spacing: 1.3px;
+  margin-bottom: 5px;
+}
+#subTotal > span:first-child {
+  display: flex;
+
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 1.2vw;
+}
+
+.mainTotal {
+  border-top: 1px solid rgb(212, 205, 205);
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#proceedToPayment {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.couponCode {
+  margin-top: 20px;
+  background-color: #ffff;
+  border: 1px solid gray;
+  padding: 10px;
+  min-width: 350px;
+}
+
+.couponCode > form {
+  border-top: 1px solid rgb(178, 175, 175);
+  display: flex;
+  flex-direction: column;
+}
+
+form > input {
+  padding: 6px 5px;
+  border: 1px solid rgb(223, 216, 216);
+  outline: none;
+  font-size: 1.1rem;
+  width: 320px;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+form > button {
+  background-color: rgb(32, 117, 245);
+  color: #ffff;
+  outline: none;
+  border: none;
+  padding: 6px 0px;
+  font-size: 1.1rem;
+  width: 330px;
+  border-radius: 5px;
+}
+.cardDetailsCont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardDetailsCont > div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.cardDetailsCont > div > input {
+  padding: 6px 5px;
+  border: 1px solid rgb(223, 216, 216);
+  outline: none;
+  font-size: 1.1rem;
+  width: 143px;
+  margin: 10px 0px;
+  border-radius: 5px;
+}

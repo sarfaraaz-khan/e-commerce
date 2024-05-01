@@ -1,0 +1,44 @@
+.productCard {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  max-width: 78%;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.productImageCont {
+  border: 1px solid green;
+  padding: 10px;
+}
+.productImageCont > img {
+  width: 300px;
+}
+
+.productDetailCont {
+  padding: 20px;
+}
+.productDetailCont > h1 {
+  margin: 0px;
+  padding: 0px;
+}
+.productDetailCont > h4 {
+  color: blue;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+#addToCart {
+  border: none;
+  outline: none;
+  padding: 5px 80px;
+  font-size: 1.1rem;
+  background-color: green;
+  border-radius: 10px;
+  color: #ffff;
+  cursor: pointer;
+  margin-bottom: 5px;
+}

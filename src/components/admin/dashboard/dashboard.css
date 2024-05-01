@@ -1,0 +1,9 @@
+.dashBoard {
+  width: 100%;
+}
+
+.tablesContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

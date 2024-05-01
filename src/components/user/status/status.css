@@ -1,0 +1,18 @@
+.status {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.status > svg {
+  width: 300px;
+  height: 200px;
+  margin: 0px;
+  padding: 0px;
+  color: green;
+}
+h1 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.4rem;
+}

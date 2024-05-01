@@ -1,0 +1,76 @@
+.productListTable {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.productListTable > h2 {
+  margin: 0px;
+}
+
+#addProduct {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  background-color: blue;
+  color: #ffff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+  font-family: "poppins";
+  cursor: pointer;
+  height: 40px;
+}
+table {
+  max-width: 100%;
+  border: 1px solid green;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+table > tr:first-child {
+  background-color: green;
+  color: #ffff;
+}
+td {
+  border-bottom: 1px solid green;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+#proTd > img {
+  width: 70px;
+  height: 70px;
+}
+#edit {
+  color: blue;
+  cursor: pointer;
+}
+#delete {
+  color: red;
+  cursor: pointer;
+}
+.addProductForm > div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.addProductForm > div > input {
+  padding-left: 10px;
+  margin-top: 2px;
+  outline: none;
+  border: 1px solid rgb(194, 191, 191);
+  height: 30px;
+}
+.addProductForm > button {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 5px;
+  font-size: 1.1rem;
+  color: #ffff;
+  background-color: blue;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+}

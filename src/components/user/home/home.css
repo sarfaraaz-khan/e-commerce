@@ -1,0 +1,34 @@
+.bannerContainer {
+  background-image: url("../assets/images/Banner.jpg");
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.searchContainer {
+  position: relative;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+}
+.searchContainer > input {
+  width: 320px;
+  height: 30px;
+  outline: none;
+  padding-left: 20px;
+}
+.searchContainer > svg {
+  position: absolute;
+  left: 8px;
+  top: 7px;
+}
+.cartContainer {
+  margin: 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
